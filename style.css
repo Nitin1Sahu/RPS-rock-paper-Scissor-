@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 800px;
+    /* margin-top: 200px; */
+    /* margin: auto; */
+    padding: 200px;
+    background-color: whitesmoke;
+}
+h2 {
+    margin: 20px;
+}
+button {
+    width: 100px;
+    border: 1px solid rgb(255, 226, 180);
+    margin-right: 20px;
+    margin-top: 50px;
+    padding: 10px;
+    /* border: 0; */
+    font-weight: bold;
+    font-style: italic;
+    background-color: papayawhip;
+}
